@@ -1,0 +1,200 @@
+.body{
+    background-color: black;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    display: flex;
+background-image: url(img/hd-nike-wallpaper-whatspaper-6.jpg);
+    align-items:center;
+}
+
+.header img{
+width: 50px;
+height: 50px;
+}
+.btn:link,
+.btn:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 100px;
+    transition: all .2s;
+    position: relative;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-white {
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+  font-size: 14px;
+  font-family: fantasy;
+}
+
+
+
+
+
+
+.name{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+
+
+.un{
+    color: aliceblue;
+    font-family: fantasy;
+    
+}
+.un  a{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    display: block;
+}
+.une{
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    font-family: fantasy;
+}
+.une  a{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    display: block;
+    font-size: xx-large;
+    
+    
+}
+
+
+.navbar{
+    background-image: url("img/fondnike.png");
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.navbare{
+    background-image: url("img/space.jpg");
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.imgchau{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.imgchauss{
+    
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.middle{
+background-image: url("img/nike-cactus-jack-dark-vertical-hd-wallpaper-preview.jpg");
+
+}
+.middles{
+    background-image: url("img/space2.jpg")
+    }
+.text{
+color: rgb(255, 255, 255);
+display: flex;
+justify-content: center;
+font-family: 'Times New Roman', Times, serif;
+font-style:oblique;
+font-size: large;
+}
+.texte{
+    color: rgb(255, 255, 255);
+    background-color: rgb(76, 2, 50);
+    display: flex;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
+    }
+
+.footer img{
+    width: 50px; ;
+    height: 50px;
+
+}
+footer{
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    background-image: url(img/hd-nike-wallpaper-whatspaper-6.jpg);
+}
+.insta a{
+    color: white;
+}
+.tweet a{
+color: white;
+}
+.new{
+    color: white;
+    display:flex;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.first{
+    font-family: fantasy;
+    font-weight: 400;
+    
+}
+.chaussures{
+    
+    display: flex;
+    align-items:center;
+    background-color: rgb(255, 255, 255);
+    
+
+}
+
+
+.prix{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.chaussure{
+    
+    display: flex;
+    align-items:center;
+    background-color: rgb(255, 255, 255);
+    
+
+}
+.firste{
+    font-family: fantasy;
+    font-weight: 400;
+    
+}
+
+.prixe{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+@media all and (max-device-width:820px){
+        
+    .header{
+        display: none;
+    }
+}
+
