@@ -85,6 +85,15 @@ height: 50px;
     display: flex;
     justify-content: center;
 }
+
+.navbar3{
+    background-image: url("img/fond.jpg");
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 .navbare{
     background-image: url("img/space.jpg");
     height: 100%;
@@ -92,6 +101,7 @@ height: 50px;
     display: flex;
     justify-content: center;
 }
+
 .imgchau{
     width: 100%;
     display: flex;
@@ -123,7 +133,7 @@ font-size: large;
 }
 .texte{
     color: rgb(255, 255, 255);
-    background-color: rgb(76, 2, 50);
+    background-color: black;
     display: flex;
     justify-content: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -191,10 +201,11 @@ color: white;
 }
 
 
-@media all and (max-device-width:820px){
+@media screen and (max-width:800px){
         
     .header{
-        display: none;
+        width: 100%;
+        
     }
 }
 
